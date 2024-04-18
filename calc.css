@@ -76,4 +76,7 @@ button:active {
         max-width: 90px;
         height: 70px;
     }
+    #calculator{
+        max-width: 370px;
+    }
 }
