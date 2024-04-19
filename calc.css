@@ -71,11 +71,11 @@ button:active {
 }
 
 @media screen and (min-width: 375px) and (max-width: 570px) {
+       #calculator{
+        max-width: 370px;
+    }
     button{
         max-width: 90px;
         height: 70px;
-    }
-    #calculator{
-        max-width: 370px;
     }
 }
