@@ -52,7 +52,6 @@ button:hover {
 
 button:active {
     background-color: hsl(0, 0%, 50%);
-    ;
 }
 
 .operator-btn {
@@ -71,7 +70,7 @@ button:active {
     background-color: hsl(35, 100%, 75%);
 }
 
-@media(max-width: 570px) {
+@media screen and (min-width: 375px) and (max-width: 570px) {
     button{
         max-width: 90px;
         height: 70px;
