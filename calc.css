@@ -10,7 +10,7 @@ body {
 #calculator {
     font-family: Arial, san-serif;
     background-color: hsl(0, 0%, 15%);
-    max-width: 500px;
+    max-width: 370px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -34,8 +34,8 @@ body {
 }
 
 button {
-    max-width: 100px;
-    height: 100px;
+    max-width: 90px;
+    height: 70px;
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
@@ -70,12 +70,3 @@ button:active {
     background-color: hsl(35, 100%, 75%);
 }
 
-@media screen and (min-width: 375px) and (max-width: 570px) {
-       #calculator{
-        max-width: 370px;
-    }
-    button{
-        max-width: 90px;
-        height: 70px;
-    }
-}
